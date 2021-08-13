@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Practice</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-2 grid-rows-3 gap-4">
+      <div class="big-block row-span-3">
+        <img src="" alt="background picture">
+        <div class="avatar">
+          <img src="" alt="avatar picture">
+          <span class="avatar-name">Оксана Кукушкина</span>
+          <span class="avatar-prof">Фотограф</span>
+        </div>
+        <!-- avatar -->
+        <h1 class="big-title">Выбор читателей: где удобнее работать фриансеру</h1>
+        <button>Смотреть фото</button>
+      </div>
+      <!-- big-block -->
+      <div class="middle-block row-span-2">
+        <img src="" alt="">
+        <span class="middle-category">Карьера</span>
+        <h2 class="middle-title">Вопросы на собеседовании для джуна</h2>
+        <p class="middle-subtitle">Каверзные и не очень вопросы, которых боятся новички, когда идут на собеседование</p>
+        <button>Читать далее</button>
+      </div>
+      <!-- middle-block -->
+      <div class="small-block row-start-0.5">
+        <h3 class="small-title">Зарядка для глаз</h3>
+        <p class="small-subtitle">Эти несколько упражнений помогут сохранить зрение. Можно делать их даже если...</p>
+        <span class="small-data">15 октября</span>
+      </div>
+      <div class="small-block">
+        <h3 class="small-title">Топ плагинов jQuery</h3>
+        <p class="small-subtitle">Какие плагины помогут быстро создать галерею, выпадающие списки или окна</p>
+        <span class="small-data">14 октября</span>
+      </div>
+      <!-- small-block -->
+    </div>
+    <!-- grid grid-cols-3 gap-4 -->
+  </div>
+  <!-- container -->
+</body>
+
+</html>
