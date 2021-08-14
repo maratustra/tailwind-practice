@@ -9,44 +9,51 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-gray-800 100vh">
   <div class="container mx-auto px-4">
-    <div class="grid grid-cols-2 grid-rows-3 gap-4">
-      <div class="big-block row-span-3">
-        <img src="" alt="background picture">
-        <div class="avatar">
-          <img src="" alt="avatar picture">
-          <span class="avatar-name">Оксана Кукушкина</span>
-          <span class="avatar-prof">Фотограф</span>
+    <div class="flex h-96">
+      <div class="relative h-full w-1/2 mr-6">
+        <img class="absolute h-full w-full z-10 rounded-lg object-cover" src="img/coworking.jpg" alt="communication">
+        <div class="absolute h-full w-full z-20 py-8 px-6 text-center">
+          <div class="flex-col mx-auto h-32 w-32">
+            <img class="rounded-full mx-auto h-12 w-12 object-cover" src="img/avatar.jpg" alt="avatar picture">
+            <span class="font-sans text-sm text-white">Оксана Кукушкина</span>
+            <span class="font-sans text-xs font-thin text-opacity-50 text-white">Фотограф</span>
+          </div>
+          <h1 class="mb-6 font-serif text-3xl font-bold text-white">Выбор читателей: где удобнее работать фрилансеру
+          </h1>
+          <button class="flex mx-auto bg-blue-500 rounded-full py-3 px-6 font-sans text-white"><img
+              class="h-4 w-4 mt-1 mr-2 fill-current text-white" src="img/attach.svg" alt="pictures">Смотреть фото<span
+              class="ml-2 opacity-30">26</span></button>
         </div>
-        <!-- avatar -->
-        <h1 class="big-title">Выбор читателей: где удобнее работать фриансеру</h1>
-        <button>Смотреть фото</button>
       </div>
-      <!-- big-block -->
-      <div class="middle-block row-span-2">
-        <img src="" alt="">
-        <span class="middle-category">Карьера</span>
-        <h2 class="middle-title">Вопросы на собеседовании для джуна</h2>
-        <p class="middle-subtitle">Каверзные и не очень вопросы, которых боятся новички, когда идут на собеседование</p>
-        <button>Читать далее</button>
+      <div class="flex-col h-full w-1/2">
+        <div class="relative h-48">
+          <img class="absolute h-full w-full z-10 rounded-lg object-cover" src="img/workplace.jpg" alt="workplace">
+          <div class="absolute z-20">
+            <span>Карьера</span>
+            <h2>Вопросы на собеседовании для джуна</h2>
+            <p>Каверзные и не очень вопросы, которых боятся новички, когда идут на собеседование
+            </p>
+            <button>Читать далее</button>
+          </div>
+        </div>
+        <!-- middle-block -->
+        <div class="small-block">
+          <h3 class="small-title">Зарядка для глаз</h3>
+          <p class="small-subtitle">Эти несколько упражнений помогут сохранить зрение. Можно делать их даже если...</p>
+          <span class="small-data">15 октября</span>
+        </div>
+        <div class="small-block">
+          <h3 class="small-title">Топ плагинов jQuery</h3>
+          <p class="small-subtitle">Какие плагины помогут быстро создать галерею, выпадающие списки или окна</p>
+          <span class="small-data">14 октября</span>
+        </div>
+        <!-- small-block -->
       </div>
-      <!-- middle-block -->
-      <div class="small-block row-start-0.5">
-        <h3 class="small-title">Зарядка для глаз</h3>
-        <p class="small-subtitle">Эти несколько упражнений помогут сохранить зрение. Можно делать их даже если...</p>
-        <span class="small-data">15 октября</span>
-      </div>
-      <div class="small-block">
-        <h3 class="small-title">Топ плагинов jQuery</h3>
-        <p class="small-subtitle">Какие плагины помогут быстро создать галерею, выпадающие списки или окна</p>
-        <span class="small-data">14 октября</span>
-      </div>
-      <!-- small-block -->
+      <!-- grid grid-cols-3 gap-4 -->
     </div>
-    <!-- grid grid-cols-3 gap-4 -->
-  </div>
-  <!-- container -->
+    <!-- container -->
 </body>
 
 </html>
