@@ -9,33 +9,41 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-800 100vh">
-  <div class="container mx-auto px-4">
-    <div class="flex h-96">
-      <div class="relative h-full w-1/2 mr-6">
-        <img class="absolute h-full w-full z-10 rounded-lg object-cover" src="img/coworking.jpg" alt="communication">
-        <div class="absolute h-full w-full z-20 py-8 px-6 text-center">
-          <div class="flex-col mx-auto h-32 w-32">
-            <img class="rounded-full mx-auto h-12 w-12 object-cover" src="img/avatar.jpg" alt="avatar picture">
-            <span class="font-sans text-sm text-white">Оксана Кукушкина</span>
-            <span class="font-sans text-xs font-thin text-opacity-50 text-white">Фотограф</span>
+<body class="bg-gray-800">
+  <div class="container h-screen mx-auto px-4 pt-16 pb-16">
+    <div class="flex h-full">
+      <div class="relative h-full w-1/2 mr-10">
+        <img class="absolute h-full w-full z-10 rounded-lg object-cover opacity-50" src="img/coworking.jpg"
+          alt="communication">
+        <div class="absolute h-full w-full z-20 py-14 px-6 text-center">
+          <div class="flex-col mx-auto mb-10 h-36 w-36">
+            <img class="rounded-full mx-auto mb-4 h-20 w-20 object-cover" src="img/avatar.jpg" alt="avatar picture">
+            <span class="font-sans text-base text-white">Оксана Кукушкина</span>
+            <span class="font-sans text-sm font-thin text-opacity-50 text-white">Фотограф</span>
           </div>
-          <h1 class="mb-6 font-serif text-3xl font-bold text-white">Выбор читателей: где удобнее работать фрилансеру
+          <h1 class="mb-20 font-serif text-5xl font-bold text-white leading-normal">Выбор читателей: где удобнее
+            работать фрилансеру
           </h1>
-          <button class="flex mx-auto bg-blue-500 rounded-full py-3 px-6 font-sans text-white"><img
-              class="h-4 w-4 mt-1 mr-2 fill-current text-white" src="img/attach.svg" alt="pictures">Смотреть фото<span
-              class="ml-2 opacity-30">26</span></button>
+          <button class="flex mx-auto bg-blue-500 rounded-full py-3 px-10 font-sans text-white font-medium"><img
+              class="h-5 w-5 mt-1 mr-4 fill-current text-white" src="img/attach.svg" alt="pictures">Смотреть фото<span
+              class="ml-4 opacity-40">26</span></button>
         </div>
       </div>
       <div class="flex-col h-full w-1/2">
-        <div class="relative h-48">
+        <div class="relative h-2/3 mb-10 rounded-lg">
           <img class="absolute h-full w-full z-10 rounded-lg object-cover" src="img/workplace.jpg" alt="workplace">
-          <div class="absolute z-20">
-            <span>Карьера</span>
-            <h2>Вопросы на собеседовании для джуна</h2>
-            <p>Каверзные и не очень вопросы, которых боятся новички, когда идут на собеседование
+          <div class="absolute z-20 py-10 px-12 text-left">
+            <span class="uppercase text-gray-400 text-opacity-75 font-medium">Карьера</span>
+            <h2 class="w-48 mt-10 mb-6 font-serif text-3xl font-bold leading-snug text-gray-700 font-semibold">Вопросы
+              на
+              собеседовании для джуна
+            </h2>
+            <p class="w-72 text-gray-700 font-medium">Каверзные и не очень вопросы, которых боятся новички, когда идут
+              на
+              собеседование
             </p>
-            <button>Читать далее</button>
+            <button class="flex mt-10 bg-blue-500 rounded-full py-3 px-10 font-sans text-white font-medium">Читать
+              далее<img class="h-5 w-5 mt-1 ml-4 opacity-25" src="img/arrow-right.svg" alt="right"></button>
           </div>
         </div>
         <!-- middle-block -->
